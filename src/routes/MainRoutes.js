@@ -1,5 +1,5 @@
 import React,{lazy,useState}  from 'react';
-import UserList from '../container/usermanagement/users/list';
+import UserList from '../container/usermanagement/users/userlist';
 import {
 
     BrowserRouter,
@@ -28,7 +28,7 @@ export default function MainRoutes() {
 
             <Routes>
 
-            <Route exact path="/"  element={<UserList/>} />
+            <Route exact path="/user-list" element={<UserList/>}/>
 
             </Routes>
 
