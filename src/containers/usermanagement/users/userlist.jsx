@@ -1,12 +1,12 @@
 import React,{useState} from "react";
-import Header from '../../../components/Header/index';
-import Sidebar from '../../../components/Sidebar/index';
-import Footer from '../../../components/Footer/index';
+
 function UserList()
 {
 
     const userlist = [
     
+        {fname:"Bella",lname:"Chloe",position:"System Devloper",date:"20/02/2022",salary:"20000",email:"xyz@gmail.com"},
+        {fname:"Bella",lname:"Chloe",position:"System Devloper",date:"20/02/2022",salary:"20000",email:"xyz@gmail.com"},
         {fname:"Bella",lname:"Chloe",position:"System Devloper",date:"20/02/2022",salary:"20000",email:"xyz@gmail.com"}
     
     ];
@@ -16,11 +16,6 @@ function UserList()
 return(
 
 <>
-<div className="page">
-        <div className="page-main">
-
-        <Header/>
-        <Sidebar/>
 
         <div className="main-content app-content mt-0">
                 <div className="side-app">
@@ -76,10 +71,7 @@ return(
 </div>
 </div>
 </div>
-        </div>
-
-        <Footer />
-</div>
+     
 </>
 
 )

@@ -1,6 +1,5 @@
 import React,{lazy,useState}  from 'react';
-import UserList from '../containers/usermanagement/users/userlist';
-import Header from '../components/Header/index';
+
 import {
 
     BrowserRouter,
@@ -11,12 +10,7 @@ import {
 
   } from "react-router-dom";
 
-
-
-// const LoginRegistration = lazy(() => import('../Container/LoginRegistration/LoginRegistration'))
-
-// const Registration = lazy(() => import('../Container/LoginRegistration/Registration/Registration'))
-
+ const UserList = lazy(() => import('../containers/layout'))
 
 
 export default function MainRoutes() {
@@ -29,7 +23,7 @@ export default function MainRoutes() {
 
             <Routes>
 
-            <Route exact path="/" element={<UserList/>}/>
+            <Route exact path="/" element={<UserList pageName='userslist'/>}/>
 
             </Routes>
 
