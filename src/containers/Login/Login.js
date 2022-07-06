@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Loader from '../../components/Loader/Loader';
 
 const Login = () => {
     return (
         <>
            {/* <!-- PAGE --> */}
+           {/* <!-- BACKGROUND-IMAGE --> */}
+    <div className="login-img">
+
+       <Loader/>
+        
         <div className="page">
             <div className="">
 
@@ -107,6 +113,8 @@ const Login = () => {
             </div>
         </div>
         {/* <!-- End PAGE --> */}
+        </div>
+    {/* <!-- BACKGROUND-IMAGE CLOSED --> */}
         </>
     )
 }
