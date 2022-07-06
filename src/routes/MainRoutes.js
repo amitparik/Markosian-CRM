@@ -1,4 +1,5 @@
 import React,{lazy,useState}  from 'react';
+import UserList from '../containers/layout';
 
 import {
 
@@ -10,7 +11,12 @@ import {
 
   } from "react-router-dom";
 
- const UserList = lazy(() => import('../containers/layout'))
+
+
+//  const UserList = lazy(() => import('../containers/layout'))
+
+// const Registration = lazy(() => import('../Container/LoginRegistration/Registration/Registration'))
+
 
 
 export default function MainRoutes() {
@@ -23,7 +29,7 @@ export default function MainRoutes() {
 
             <Routes>
 
-            <Route exact path="/" element={<UserList pageName='userslist'/>}/>
+            <Route exact path="/" element={<UserList pageName="userslist"/>}/>
 
             </Routes>
 
