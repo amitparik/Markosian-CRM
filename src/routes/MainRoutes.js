@@ -1,6 +1,8 @@
 import React,{lazy,useState}  from 'react';
 import UserList from '../containers/layout';
 
+import Button from '../containers/uipage';
+
 import {
 
     BrowserRouter,
@@ -30,6 +32,7 @@ export default function MainRoutes() {
             <Routes>
 
             <Route exact path="/" element={<UserList pageName="userslist"/>}/>
+            <Route exact path="/ui" element={<Button/>}/>
 
             </Routes>
 

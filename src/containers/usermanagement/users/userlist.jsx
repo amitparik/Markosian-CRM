@@ -9,7 +9,7 @@ function UserList()
     
         {fname:"Bella",lname:"Chloe",position:"System Devloper",date:"20/02/2022",salary:"20000",email:"xyz@gmail.com"},
         {fname:"Bella",lname:"Chloe",position:"System Devloper",date:"20/02/2022",salary:"20000",email:"xyz@gmail.com"},
-        {fname:"Bella",lname:"Chloe",position:"System Devloper",date:"20/02/2022",salary:"20000",email:"xyz@gmail.com"}
+        {fname:"Riya",lname:"Chloe",position:"Admin",date:"20/02/2022",salary:"20000",email:"xyz@gmail.com"}
     
     ];
     
