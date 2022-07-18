@@ -106,7 +106,7 @@ sup {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }

@@ -242,7 +242,7 @@ body {
     line-height: 1.5;
     color: #282f53;
     text-align: left;
-    background-color: #f0f0f5;
+    background-color: #f0f0f5 !important;
 }
 
 .number-font {
@@ -7400,17 +7400,6 @@ ul.labels-info li a i {
     margin-bottom: 3rem;
 }
 
-.input-group {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 100%;
-}
-
 .input-group>.form-control,
 .input-group>.form-select,
 .input-group>.form-file {
@@ -7545,17 +7534,6 @@ ul.labels-info li a i {
 .input-indec .input-group-btn>.btn {
     height: 100%;
     border-color: #e9edf4;
-}
-
-.input-group {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 100%;
 }
 
 .input-group>.form-control,
@@ -40324,7 +40302,7 @@ ul {
     position: relative;
     display: block;
     min-height: 1.2rem;
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem; */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -43311,7 +43289,7 @@ ul.inbox-pagination li {
 .social-login {
     width: 40px;
     height: 40px;
-    background: var(--primary01);
+    background: rgba(108,95,252,0.1);
     border-radius: 10px;
     line-height: 40px;
     font-size: 18px;
@@ -44093,23 +44071,23 @@ ul.inbox-pagination li {
 .login-social-icon::before {
     content: "";
     position: absolute;
-    width: 28%;
+    width: 22%;
     height: 1px;
     left: 0;
     right: 0;
     background-color: #e9e9ef;
-    top: 10px;
+    top: 13px;
 }
 
 .login-social-icon::after {
     content: "";
     position: absolute;
-    width: 28%;
+    width: 22%;
     height: 1px;
     left: auto;
     right: 0;
     background-color: #e9e9ef;
-    top: 10px;
+    top: 13px;
 }
 
 .login-social-icon span {
@@ -45130,6 +45108,7 @@ table.table-bordered.dataTable thead tr:first-child td {
 
 .wrap-input100 {
     position: relative;
+    max-width: 240px;
     width: 100%;
     z-index: 1;
     margin-bottom: 10px;
