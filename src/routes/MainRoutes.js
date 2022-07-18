@@ -4,17 +4,17 @@ import {
     Routes,
     Route,
   } from "react-router-dom";
-//import Login from '../containers/Login/Login';
 
-const Login = lazy(() => import('../containers/Login/Login'));
-// const Registration = lazy(() => import('../Container/LoginRegistration/Registration/Registration'))
+const LoginRegistration = lazy(() => import('../containers/LoginRegistrationLayout/index'))
 
 export default function MainRoutes() {
   return (
     <>  
         <BrowserRouter>
             <Routes>
-                <Route exact path="/"  element={<Login />} />
+                <Route exact path="/"  element={<LoginRegistration pageName="login" />} />
+                <Route exact path="/login"  element={<LoginRegistration pageName="login" />} />
+                <Route exact path="/registration" element={<LoginRegistration pageName="registration" />} />
             </Routes>
         </BrowserRouter>
     </>

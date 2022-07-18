@@ -1,0 +1,27 @@
+.transparent-mode .login-img {
+    background-image: none;
+}
+.login-img {
+    position: relative;
+}
+.login-img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-table;
+}
+#global-loader {
+    position: fixed;
+    z-index: 50000;
+    background: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
