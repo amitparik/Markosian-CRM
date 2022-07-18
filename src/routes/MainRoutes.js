@@ -12,9 +12,12 @@ export default function MainRoutes() {
     <>  
         <BrowserRouter>
             <Routes>
+                
                 <Route exact path="/"  element={<LoginRegistration pageName="login" />} />
                 <Route exact path="/login"  element={<LoginRegistration pageName="login" />} />
                 <Route exact path="/registration" element={<LoginRegistration pageName="registration" />} />
+                <Route exact path="/data-table" element={<UserList pageName="userslist"/>}/>
+                <Route exact path="/ui" element={<Button/>}/>
             </Routes>
         </BrowserRouter>
     </>

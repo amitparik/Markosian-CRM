@@ -242,7 +242,11 @@ body {
     line-height: 1.5;
     color: #282f53;
     text-align: left;
+<<<<<<< HEAD
     background-color: #f0f0f5 !important;
+=======
+    background-color: #f0f0f5;
+>>>>>>> origin/prashant
 }
 
 .number-font {
@@ -559,8 +563,11 @@ pre code {
     word-break: normal;
 }
 
+<<<<<<< HEAD
 /* Bootstrap css start */
 
+=======
+>>>>>>> origin/prashant
 .pre-scrollable {
     max-height: 340px;
     overflow-y: scroll;
@@ -7400,6 +7407,20 @@ ul.labels-info li a i {
     margin-bottom: 3rem;
 }
 
+<<<<<<< HEAD
+=======
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+>>>>>>> origin/prashant
 .input-group>.form-control,
 .input-group>.form-select,
 .input-group>.form-file {
@@ -7536,6 +7557,20 @@ ul.labels-info li a i {
     border-color: #e9edf4;
 }
 
+<<<<<<< HEAD
+=======
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+>>>>>>> origin/prashant
 .input-group>.form-control,
 .input-group>.form-select,
 .input-group>.form-file {
@@ -40302,7 +40337,11 @@ ul {
     position: relative;
     display: block;
     min-height: 1.2rem;
+<<<<<<< HEAD
     /* padding-left: 1.5rem; */
+=======
+    padding-left: 1.5rem;
+>>>>>>> origin/prashant
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -43289,7 +43328,11 @@ ul.inbox-pagination li {
 .social-login {
     width: 40px;
     height: 40px;
+<<<<<<< HEAD
     background: rgba(108,95,252,0.1);
+=======
+    background: var(--primary01);
+>>>>>>> origin/prashant
     border-radius: 10px;
     line-height: 40px;
     font-size: 18px;
@@ -44071,23 +44114,39 @@ ul.inbox-pagination li {
 .login-social-icon::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     width: 22%;
+=======
+    width: 28%;
+>>>>>>> origin/prashant
     height: 1px;
     left: 0;
     right: 0;
     background-color: #e9e9ef;
+<<<<<<< HEAD
     top: 13px;
+=======
+    top: 10px;
+>>>>>>> origin/prashant
 }
 
 .login-social-icon::after {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     width: 22%;
+=======
+    width: 28%;
+>>>>>>> origin/prashant
     height: 1px;
     left: auto;
     right: 0;
     background-color: #e9e9ef;
+<<<<<<< HEAD
     top: 13px;
+=======
+    top: 10px;
+>>>>>>> origin/prashant
 }
 
 .login-social-icon span {
@@ -45108,7 +45167,10 @@ table.table-bordered.dataTable thead tr:first-child td {
 
 .wrap-input100 {
     position: relative;
+<<<<<<< HEAD
     max-width: 240px;
+=======
+>>>>>>> origin/prashant
     width: 100%;
     z-index: 1;
     margin-bottom: 10px;
